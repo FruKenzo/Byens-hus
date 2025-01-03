@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+img{
+    max-width: 100%;
+    box-sizing: border-box;
+    /* border: solid black 2px; */
+}
+
+video{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    /* border: solid black 2px; */
+}
+
+figure{
+    margin: 0;
+}
+
+section{
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+}
+
+nav{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover h2{
+    background-color: chocolate;
+}
+
+hr{
+    border: solid, 1px, black;
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+main article{
+    text-align: center;
+    font-size: large;
+}
+
+h3{
+    margin: 5px;
+}
+
+p{
+    margin: 0;
+}
+
+.video{
+    margin: inline auto;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 75%;
+}
+
+.layout2{
+    display: grid;
+    gap: 15px;
+    max-width: 75%;
+}
+
+.layout2 div{
+    display: flex;
+    align-items: center;
+}
+
+.layout2 img{
+    padding: 10px;
+}
+
+.mockups{
+    justify-items: center;
+}
+
+.grid, .storyboard, .robot article{
+    margin-bottom: 20px
+}
+
+.robot article{
+    display: flex;
+    max-width: 40%;
+}
+
+.robot article video{
+    max-width: 100%;
+    width: auto;
+}
+
+.robot{
+    justify-items: center;
+}
+
+.robot_billeder{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+.robot_billeder img{
+    max-width: 33%;
+    height: fit-content;
+    padding: 5px;
+}
