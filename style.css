@@ -148,9 +148,8 @@ h3{
     margin-inline: auto;
 }
 
-.robot_billeder article figure img{
+.robot_billeder article img{
     max-width: 100%;
-    min-height: 50%;
     height: auto;
     padding: 5px;
 }
