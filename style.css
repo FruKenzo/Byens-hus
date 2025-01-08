@@ -149,14 +149,10 @@ h3{
     align-items: center;
 }
 
-.robot_billeder article img{
+.robot_billeder img{
     max-width: 100%;
     height: auto;
     padding: 5px;
-}
-
-.robot_billeder article{
-    align-items: center;
 }
 
 .robot_billeder figure{
