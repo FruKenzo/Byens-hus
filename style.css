@@ -81,10 +81,6 @@ p{
     margin: 0;
 }
 
-.video{
-   background-color: aliceblue;
-}
-
 .grid{
     /* display: grid; */
     margin-inline: auto;
