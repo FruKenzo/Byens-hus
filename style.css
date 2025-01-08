@@ -82,11 +82,12 @@ p{
 }
 
 .video{
-    margin-inline: auto;
+   background-color: aliceblue;
 }
 
 .grid{
-    display: grid;
+    /* display: grid; */
+    margin-inline: auto;
     justify-content: center;
     align-items: center;
 }
