@@ -156,3 +156,11 @@ p{
 .robot_billeder article{
     align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+  
+    .robot_billeder{
+      flex-direction: column;
+    }
+
+  }
