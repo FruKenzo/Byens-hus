@@ -150,7 +150,7 @@ h3{
 
 .robot_billeder article img{
     max-width: 100%;
-    height: min-content;
+    height: auto;
     padding: 5px;
 }
 
