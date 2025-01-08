@@ -148,6 +148,7 @@ p{
 
 .robot_billeder article img{
     max-width: 100%;
+    min-width: 33%;
     height: auto;
     padding: 5px;
 }
