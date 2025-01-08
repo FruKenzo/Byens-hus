@@ -82,7 +82,7 @@ p{
 }
 
 .video{
-    margin: inline auto;
+    margin-inline: auto;
 }
 
 .grid{
@@ -113,11 +113,26 @@ p{
     padding: 10px;
 }
 
+.layout3{
+    display: grid;
+    gap: 15px;
+    max-width: 75%;
+}
+
+.layout3 div{
+    display: flex;
+    align-items: center;
+}
+
+.layout3 img{
+    padding: 10px;
+}
+
 .mockups{
     justify-items: center;
 }
 
-.grid, .storyboard, .robot article{
+.grid, .bottom_hr, .storyboard, .robot article{
     margin-bottom: 20px
 }
 
