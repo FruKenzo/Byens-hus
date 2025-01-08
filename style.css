@@ -92,7 +92,6 @@ p{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
-    max-width: 90%;
 }
 
 .layout2{
@@ -126,7 +125,7 @@ p{
 
 .mockups{
     margin-inline: auto;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .grid, .bottom_hr, .storyboard, .robot article{
@@ -169,13 +168,16 @@ p{
       flex-direction: column;
       max-width: 80%;
     }
+    
+    .mockups{
+        max-width: 90%;
+    }
 
     .layout{
         display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
         align-items: center;
-        max-width: 100%;
     }
     
     .layout2 div{
@@ -186,8 +188,6 @@ p{
         flex-direction: column;
     }
 
-    .mockups{
-        max-width: 90%;
-    }
+    
 
   }
