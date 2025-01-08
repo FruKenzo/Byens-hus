@@ -90,8 +90,9 @@ p{
 .layout{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
+    max-width: 90%;
 }
 
 .layout2{
@@ -174,6 +175,7 @@ p{
         grid-template-columns: 1fr;
         gap: 15px;
         align-items: center;
+        max-width: 100%;
     }
     
     .layout2 div{
