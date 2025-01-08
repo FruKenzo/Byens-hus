@@ -140,10 +140,6 @@ p{
     height: auto;
 }
 
-.robot{
-    justify-items: center;
-}
-
 .robot_billeder{
     display: flex;
     max-width: 100%;
