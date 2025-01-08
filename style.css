@@ -112,6 +112,7 @@ p{
 .layout3{
     display: grid;
     gap: 5px;
+    align-items: center;
 }
 
 .layout3 div{
