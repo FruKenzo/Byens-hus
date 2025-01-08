@@ -82,7 +82,6 @@ p{
 }
 
 .grid{
-    /* display: grid; */
     margin-inline: auto;
     justify-content: center;
     align-items: center;
@@ -92,7 +91,8 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    max-width: 75%;
+    align-items: center;
+    /* max-width: 75%; */
 }
 
 .layout2{
