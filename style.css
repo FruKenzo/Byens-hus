@@ -132,13 +132,12 @@ p{
 }
 
 .robot article{
-    display: flex;
-    max-width: 40%;
+    justify-items: center;
 }
 
 .robot article video{
-    max-width: 100%;
-    width: auto;
+    max-width: 80%;
+    height: auto;
 }
 
 .robot{
