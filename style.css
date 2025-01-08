@@ -74,7 +74,7 @@ main{
 
 main article{
     text-align: center;
-    font-size: 60;
+    font-size: 60px;
 }
 
 h3{
@@ -198,7 +198,6 @@ p{
     }
 
     main article{
-        text-align: center;
         font-size: larger;
     }    
 
