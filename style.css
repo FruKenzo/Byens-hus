@@ -148,7 +148,7 @@ h3{
     margin-inline: auto;
 }
 
-.robot_billeder article img{
+.robot_billeder article figure img{
     max-width: 100%;
     min-height: 50%;
     height: auto;
