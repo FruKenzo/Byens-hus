@@ -146,6 +146,7 @@ h3{
     display: flex;
     max-width: 100%;
     margin-inline: auto;
+     align-items: center;
 }
 
 .robot_billeder article img{
@@ -156,6 +157,10 @@ h3{
 
 .robot_billeder article{
     align-items: center;
+}
+
+.robot_billeder figure{
+   width: 33%;
 }
 
 @media screen and (max-width: 480px) {
