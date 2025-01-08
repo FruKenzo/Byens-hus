@@ -148,6 +148,10 @@ p{
 
 .robot_billeder img{
     max-width: 33%;
-    height: fit-content;
+    height: auto;
     padding: 5px;
+}
+
+.robot_billeder article{
+    align-items: center;
 }
