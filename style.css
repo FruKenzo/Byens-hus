@@ -125,7 +125,7 @@ p{
 
 .mockups{
     justify-items: center;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .grid, .bottom_hr, .storyboard, .robot article{
@@ -137,7 +137,7 @@ p{
 }
 
 .robot article video{
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -159,8 +159,29 @@ p{
 
 @media screen and (max-width: 480px) {
   
+    .robot article video{
+        max-width: 90%;
+        height: auto;
+    }
+
     .robot_billeder{
       flex-direction: column;
+      max-width: 80%;
+    }
+
+    .layout{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .layout2 div{
+        flex-direction: column;
+    }
+
+    .layout3 div{
+        flex-direction: column;
     }
 
   }
