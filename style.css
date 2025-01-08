@@ -125,6 +125,7 @@ p{
 
 .mockups{
     justify-items: center;
+    max-width: 90%;
 }
 
 .grid, .bottom_hr, .storyboard, .robot article{
@@ -136,7 +137,7 @@ p{
 }
 
 .robot article video{
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 
